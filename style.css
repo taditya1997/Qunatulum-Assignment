@@ -1,0 +1,352 @@
+body {
+    margin: 0px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .header {
+    height: 528px;
+    background-image: url("./images/malaysia-floods-l.jpg");
+    color: rgb(196, 195, 195);
+    padding: 25px;
+  }
+  
+  .header_nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header_nav > li {
+    list-style-type: none;
+    font-weight: bold;
+    padding: 15px;
+  }
+  
+  .header_greet > span {
+    color: white;
+  }
+  
+  .graph_area {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    background-color: white;
+    position: relative;
+    top: -300px;
+    border-radius: 5px;
+    padding-bottom: 25px;
+  }
+  .graph_header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding: 10px 0px 10px 40px;
+    background-image: url("./images/malaysia-floods.jpg");
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .graph_header > span {
+    font-size: 30px;
+  }
+  .graph_counters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .graph_counters_col {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .graph_counters_col > strong {
+    color: rgb(119, 204, 220);
+    font-size: 25px;
+  }
+  .graph_counter_below {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .graph_counter_below_legacy_journy {
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+  }
+  .graph_counter_below_legacy_journy > img {
+    height: 100%;
+    width: 100%;
+  }
+  .graph_counter_below_activity {
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  @media only screen and (max-width: 800px) {
+    .graph_counter_below {
+      padding: 0px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .graph_counter_below_legacy_journy {
+      display: flex;
+      flex-direction: column;
+      min-width: 100%;
+      padding-bottom: 10px;
+    }
+  
+    .graph_counter_below_activity {
+      min-width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .investment_option {
+      display: flex;
+      flex-direction: column;
+    }
+    .grant_recommendation {
+      display: flex;
+      flex-direction: column;
+    }
+    .grant_recommendation_catagory {
+      padding: 5px;
+    }
+  }
+  
+  .footer {
+    background-color: gray;
+  }
+  .footer_img {
+    width: 100%;
+  }
+  .investment {
+    margin: 0px 50px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -260px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .investment_option {
+    display: flex;
+    overflow-x: scroll;
+  }
+  .option {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .option > span {
+    color: rgb(119, 204, 220);
+  }
+  .option > span > span {
+    color: rgb(214, 202, 35);
+  }
+  .grant_recommendation {
+    display: flex;
+  
+    background-color: white;
+    justify-content: space-between;
+    position: relative;
+    top: -240px;
+    margin: 0px 50px;
+    border-radius: 5px;
+    padding: 50px;
+  }
+  .grant_recommendation > span {
+    display: flex;
+    justify-content: space-between;
+  }
+  .grant_recommendation > span > div {
+    margin: 5px;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grant_recommendation_catagory {
+    padding: 0px 5px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .cardSection {
+    position: relative;
+    top: -200px;
+    display: flex;
+    margin: 0px 50px;
+    flex-wrap: wrap;
+  }
+  .singCard {
+    max-width: 300px;
+    margin: 5px;
+    background-color: white;
+  }
+  .barSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+  }
+  
+  .cardSection {
+    margin-top: 20px;
+    color: rgb(194, 130, 255);
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .singCard {
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .barSection {
+    display: flex;
+    background-color: rgb(119, 242, 201);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .barContent {
+    width: 40%;
+    margin: 10px 0 10px 15px;
+    line-height: 5px;
+  }
+  
+  .barContent p {
+    font-size: 12px;
+  }
+  
+  .barContent div {
+    font-size: 15px;
+  }
+  
+  progress{
+    -webkit-appearance: none;
+   appearance: none;
+   margin-top: 15px;
+    width: 150px;
+    height: 15px;
+   margin-right: 5px;
+   border-radius: 10px;
+    
+  }
+  progress::-webkit-progress-bar{
+   
+    background-color:#eee;
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+  progress::-webkit-progress-value {
+    background-color:#eee;
+       
+  
+      border-radius: 2px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+  }
+  @-webkit-keyframes animate-stripes {
+    100% { background-position: -100px 0px; }
+ }
+ @keyframes animate-stripes {
+  100% { background-position: -100px 0px; }
+}
+  progress::-webkit-progress-value::before {
+    content: '80%';
+    position: absolute;
+    
+    right: 0;
+    top: -125%;
+  }
+  progress::-webkit-progress-value::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    border-radius: 100%;
+    right: 7px;
+    top: 7px;
+    background-color: white;
+  }
+  .imageSection {
+    background-repeat: no-repeat;
+    color: white;
+    height: 20vh;
+    background-size: cover;
+  }
+  
+  .imageContentHeader {
+    display: flex;
+  }
+  
+  .imageSection > p {
+    font-size: 8px;
+    margin-left: 20px;
+    margin-top: -14px;
+  }
+  
+  .imageSection > button {
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 40px;
+    width: 25%;
+    border-style: none;
+    outline-style: none;
+    background-color: rgb(143, 146, 146);
+    color: white;
+    position: relative;
+    top: 25px;
+  }
+  
+  .imageSection > h3 {
+    margin-left: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 29px;
+  }
+  
+  .imageContentHeader p {
+    width: 50%;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .imageContentHeader img {
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 25%;
+    height: 10%;
+  }
+  
+  .dateContent {
+    display: flex;
+  }
+  
+  .dateContent > img {
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-top: 25px;
+    height: fit-content;
+    background-size: cover;
+  }
+  
+  .dateContent > div {
+    font-weight: bolder;
+    color: black;
+    position: relative;
+    left: 10px;
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  
+  .cardContent {
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+  }
